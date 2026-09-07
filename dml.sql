@@ -30,16 +30,16 @@ INSERT INTO mascotas (ID_Cliente, nombre, nPatas, estatura) VALUES
 (9, 'Piolin', 2, 0.15);
 
 INSERT INTO servicios (nombre, precio) VALUES
-('Consulta general', 50000),
-('Vacuna', 35000),
-('Baño', 25000),
-('Peluqueria', 40000),
-('Desparasitacion', 30000),
-('Cirugia menor', 200000),
-('Radiografia', 80000),
-('Limpieza dental', 60000),
-('Esterilizacion', 150000),
-('Guarderia', 20000);
+('Consulta general', 50),
+('Vacuna', 35),
+('Baño', 25),
+('Peluqueria', 40),
+('Desparasitacion', 30),
+('Cirugia menor', 200),
+('Radiografia', 80),
+('Limpieza dental', 60),
+('Esterilizacion', 150),
+('Guarderia', 20);
 
 INSERT INTO mascota_servicio (ID_Mascota, ID_Servicio, fecha) VALUES
 (1, 1, '2025-01-10'),

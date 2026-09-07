@@ -238,18 +238,6 @@ END //
 
 DELIMITER ;
 
-CALL InsertarCLiente('Pedro Sanchez', 'Calle 13', 'pedrosanchez@gmail.com');
-
-SELECT * FROM clientes;
-
-CALL ActualizarEstadoCliente(11,0);
-
-CALL ContarMascotasPorCliente(4, @total); SELECT @total;
-
-CALL ListarServiciosDeMascota(1);
-
-CALL RegistrarServicioMascota(1, 2, '2025-02-03');
-
 -- =============================================
 -- EJEMPLOS DE PRUEBA
 -- =============================================
